@@ -11,6 +11,61 @@ The EasyDAB will supply both boards with 5v, but each needs to be configured for
 
 The Mini-360 Module closest to the DC Barrel Jack with IC11 labelled on the PCB must output 3.3v (Potentiometer configured for 21.5kOhm), while the Mini-360 module closest to the RF_OUT with IC10 labelled on the PCB must be configured for 1.8v output (Potentiometer configured for 7.87kOhm). It is advisable to run in 5v with a dummy load on the module's output and ensure that the potentiometers are configured for the correct output voltages BEFORE installing on the module. 
 
+For reference the Mini360 direct-solder pads are labelled as follows, if you plan to use the Mini360 modules rather than direct solder you can exclude the below components from your bill of materials:
+
+(RF Side)
+
+L7 10uH Inductor
+
+IC10 MP2307 DC>DC
+
+C68 22uF
+
+C67 100nF
+
+C65 10uF
+
+C66 10nF
+
+C64 3.9nF
+
+R24 6.8K
+
+R25 8K2
+
+R26 7.87K
+
+R27 (Potentiometer) 10-100K
+
+
+(DC Side)
+
+C31 0.1uF
+
+C32 4.7uF
+
+C70 10uF
+
+C71 10nF
+
+C72 100nF
+
+C73 22uF
+
+R27 6.8K
+
+R28 6.8K
+
+R29 8K2
+
+R30 21.5K
+
+R31 (Potentiometer) 10-100K
+
+L8 10uH
+
+IC11 MP2307
+
 # 2. Band Pass Filter / Low Pass Filter
 
 The band pass filter is perhaps the easier option for acheiving RF filtering of the outputted signal. RF filtering is essential if you are using the EasyDAB board outside of a RF shielded box. This is because an unfiltered signal will spread RF harmonics all over the spectrum potentially interfering with licensed services and other lawful users of the RF spectrum. You could get in significant trouble with the associated regulatory bodies in your country if you do not filter your signal! However, there are three options to acheive RF filtering. You can either use the RBP-204+, the RBP-220+ or a set of passive componenets. The below covers the advantages and disadvantages of these options.
