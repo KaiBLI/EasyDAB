@@ -20,26 +20,36 @@ The band pass filter is perhaps the easier option for acheiving RF filtering of 
 _Advantages:_
 
 Covers RF filtering for the entirety of the DAB Band III spectrum of 174Mhz-240Mhz. 
+
 Probably acheives the cleanest signal possible.
+
 Easier than using the series of passive components.
+
 
 _Disadvantages:_
 
 Expensive Component
+
 Out-of-stock at some suppliers
+
 Needs to be swapped for a different RF filtering option if you decided to change the board to be used for FM or DRM usage.
+
 
 **RBP-220+**
 
 _Advantages:_
 
 Possibly easier to source than RBP-204+
+
 Easier than using series of passive components.
+
 
 _Disadvantages_
 
 Does not cover entirety of DAB Band III, only covers to 212Mhz-240Mhz
+
 Needs to be swapped for a different RF filtering option if you decided to change the board to be used for FM or DRM usage.
+
 
 **Inductors and Capacitors / Low Pass Filter**
 One can forgo the RBP-204+/RBP-220+ and instead install a series of capacitors and inductors at the locations of L1, L5 and L6, and C63, C62, C61 and C60. 
@@ -48,13 +58,17 @@ This may(?) acheive a lesser quality of filtering, however has the advantage of 
 
 _Advantages:_
 Easiest and cheapest components to source
+
 Works for EasyFM(tbc)
+
 
 _Disadvantages_
 Possibly lesser quality of filtering
+
 More soldering and quantity of components to source
 
-**Single Frequency Network (SFN)**
+
+# 3. Single Frequency Network (SFN)
 The EasyDAB v2 board allows you to use multiple boards to create a single frequency network of transmitters. That is you can extend your range by broadcasting the same multiplex on the same frequency over a distributed area. However, for this to work, all the ones and zeros must be sent out of all the transmitter in perfect synchronization. To acheive this, a GPS module is used to timestamp frames allowing the transmitters to broadcast said frames at the same time. 
 
 Most folks who are looking to build microtransmitters within their own home or properties will most likely not need this. You will probably have an easier time boosting the power of your signal to acheive the desired range rather than needing to go down the SFN tunnel. However, if you are restricted by power limitations on restricted license/no-license regulations from your jurisdiction, you may find SFN useful as the regulations may be silent on the -quantity- of transmitters on the same frequency as such regulations usually only stipulate power of individual broadcasts. 
