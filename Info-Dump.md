@@ -16,21 +16,27 @@ The Mini-360 Module closest to the DC Barrel Jack with IC11 labelled on the PCB 
 The band pass filter is perhaps the easier option for acheiving RF filtering of the outputted signal. RF filtering is essential if you are using the EasyDAB board outside of a RF shielded box. This is because an unfiltered signal will spread RF harmonics all over the spectrum potentially interfering with licensed services and other lawful users of the RF spectrum. You could get in significant trouble with the associated regulatory bodies in your country if you do not filter your signal! However, there are three options to acheive RF filtering. You can either use the RBP-204+, the RBP-220+ or a set of passive componenets. The below covers the advantages and disadvantages of these options.
 
 RBP-204+
+
 Advantages:
+
 Covers RF filtering for the entirety of the DAB Band III spectrum of 174Mhz-240Mhz. 
 Probably acheives the cleanest signal possible.
 Easier than using the series of passive components.
 
-Disadvantages
+Disadvantages:
+
 Expensive Component
 Out-of-stock at some suppliers
 Needs to be swapped for a different RF filtering option if you decided to change the board to be used for FM or DRM usage.
 
 RBP-220+
+
 Advantages:
+
 Possibly easier to source than RBP-204+
 Easier than using series of passive components.
 
 Disadvantages
+
 Does not cover entirety of DAB Band III, only covers to 212Mhz-240Mhz
 Needs to be swapped for a different RF filtering option if you decided to change the board to be used for FM or DRM usage.
