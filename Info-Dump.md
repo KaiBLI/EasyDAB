@@ -52,6 +52,7 @@ Needs to be swapped for a different RF filtering option if you decided to change
 
 
 **Inductors and Capacitors / Low Pass Filter**
+
 One can forgo the RBP-204+/RBP-220+ and instead install a series of capacitors and inductors at the locations of L1, L5 and L6, and C63, C62, C61 and C60. 
 
 This may(?) acheive a lesser quality of filtering, however has the advantage of utilizing cheaper components. Additionally, if one wishes to use the EasyFM firmware, this should work for that too. (This I have not been able to test, Sergiy's site only mentions the usage of low pass filtering instead of band pass filtering for EasyFM - I ASSUME that references the circit diagram of using the inductors/capacitors)
