@@ -45,10 +45,6 @@ IC11 MP2307
 
 _RF Side (5v Input - 1.8v Output)_
 
-L7 10uH Inductor
-
-IC10 MP2307 DC>DC
-
 C68 22uF
 
 C67 100nF
@@ -67,6 +63,9 @@ R26 7.87K
 
 R27 (Potentiometer) 10-100K
 
+L7 10uH Inductor
+
+IC10 MP2307 DC>DC
 
 
 # 2. Band Pass Filter / Low Pass Filter
