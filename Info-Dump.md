@@ -1,6 +1,6 @@
 # EasyDAB Assembly Options
 
-With the EasyDAB v2 you have a couple of assembly options, most hobbyists looking to dabble into DAB will probably want to start off with the 1st Option
+With the EasyDAB v2 you have a couple of assembly options, most hobbyists looking to dabble into DAB will probably want to start off with the options installing the Mini360 modules, the RBP-204+ band pass filter and electing to -not- install the SFN components.
 
 # 1. The Mini360 Modules
 
