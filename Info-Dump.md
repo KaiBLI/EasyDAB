@@ -136,38 +136,63 @@ Most folks who are looking to build microtransmitters within their own home or p
 Using the design of Sergiy's board, you can initially build for non-SFN usage and later upgrade to the components needed for SFN at a later date if desired. 
 
 The components required for SFN are as follows and can be excluded from your BoM if you do not need SFN:
+
 _VCTCXO_
+
 X4 - 19.2Mhz OPL Crystal Oscellator
+
 R36 - 10k
+
 R37 - 100k
+
 R38 - 100k
+
 R41 - 100k
+
 C75 - 10nF
+
 C78 - 100n
 
+
 _RF In_
+
 REF_IN - SMA Connector
+
 C74 - 10nF
+
 R34 - 50Ohm
 
+
 _Ublox NEO-M8N_
+
 u-blox NEO - GPS IC
+
 L2 - 33nH
+
 C79 - 100nF
+
 C80 - 100nF
+
 R39 - 10R
+
 R40 - 1K
+
 LED4 - 1PPS
 
-SFN also needs the Additional SRAM
+_SFN also needs the Additional SRAM_
+
 You may yield additional benefits such as board stability when receiving a ETI stream if you install the additional SRAMs regardless. I would therefore advise doing so regardless unless you are really pinched for costs. 
 
 IC8 - 23LC1024
+
 IC9 - 23LC1024
 
-If you are building for Non-SFN Usage
+_If you are building for Non-SFN Usage_
+
 You must install
+
 R21 - 1M
+
 Q2 - 24.576Mhz Clock Oscellator 
 
 
