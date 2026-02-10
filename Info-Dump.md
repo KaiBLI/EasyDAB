@@ -11,34 +11,11 @@ The EasyDAB will supply both boards with 5v, but each needs to be configured for
 
 The Mini-360 Module closest to the DC Barrel Jack with IC11 labelled on the PCB must output 3.3v (Potentiometer configured for 21.5kOhm), while the Mini-360 module closest to the RF_OUT with IC10 labelled on the PCB must be configured for 1.8v output (Potentiometer configured for 7.87kOhm). It is advisable to run in 5v with a dummy load on the module's output and ensure that the potentiometers are configured for the correct output voltages BEFORE installing on the module. 
 
+**Direct Solder Pads**
 For reference the Mini360 direct-solder pads are labelled as follows, if you plan to use the Mini360 modules rather than direct solder you can exclude the below components from your bill of materials:
 
-(RF Side)
 
-L7 10uH Inductor
-
-IC10 MP2307 DC>DC
-
-C68 22uF
-
-C67 100nF
-
-C65 10uF
-
-C66 10nF
-
-C64 3.9nF
-
-R24 6.8K
-
-R25 8K2
-
-R26 7.87K
-
-R27 (Potentiometer) 10-100K
-
-
-(DC Side)
+_DC Side (5v Input - 3.3v Output)_
 
 C31 0.1uF
 
@@ -65,6 +42,32 @@ R31 (Potentiometer) 10-100K
 L8 10uH
 
 IC11 MP2307
+
+_RF Side (5v Input - 1.8v Output)_
+
+L7 10uH Inductor
+
+IC10 MP2307 DC>DC
+
+C68 22uF
+
+C67 100nF
+
+C65 10uF
+
+C66 10nF
+
+C64 3.9nF
+
+R24 6.8K
+
+R25 8K2
+
+R26 7.87K
+
+R27 (Potentiometer) 10-100K
+
+
 
 # 2. Band Pass Filter / Low Pass Filter
 
