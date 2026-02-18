@@ -8,7 +8,7 @@ VCTCXO
 Extra SRAM
 GPS
 
-I -STRONGLY- advise you to install the Extra SRAMs. There is potentially an issue where the current SFN-Enabled firmware is too bulky to maintain a sufficient buffer with the main SRAM only. Additionally, the exciter will stop broadcasting if you interact with the management page when you lack the additional SRAM. Production use warrants the use of extra SRAM for that reason alone. Additionally, if your DAB Mux server is fairly remote to the exciter, the additional buffer provided by the extra SRAMs is also needed for that too. 
+I -STRONGLY- advise you to install the Extra SRAMs. There is potentially an issue where the current SFN-Enabled firmware is too bulky to maintain a sufficient buffer with the main SRAM only (See Issue #1). Additionally, the exciter will stop broadcasting if you interact with the management page when you lack the additional SRAM. Production use warrants the use of extra SRAM for that reason alone. Additionally, if your DAB Mux server is fairly remote to the exciter, the additional buffer provided by the extra SRAMs is also needed for that too. 
 
 If you are planning for production or long term use, I would also encourage you to use a VCTCXO to ensure accurate modulation of your digital signal. The quartz oscillator 'works', but probably best for experimental use only. 
 
