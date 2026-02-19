@@ -9,6 +9,7 @@ Main ICs (FPGA/DAC/Main SRAM/Ethernet Controller): https://www.digikey.com/en/my
 Main Passives & Voltage Regulators: https://www.digikey.com/en/mylists/list/4SKKTAJE6A
 
 # SRAM Option (Strongly Recommended)
+23LC1024 SRAM: https://www.digikey.com/en/mylists/list/1WGT9OCI7E
 
 # Oscillator Options
 
@@ -23,4 +24,7 @@ Low Pass Filter (Needed for EasyFM/EasyDRM): https://www.digikey.com/en/mylists/
 Band Pass Fiter (Only Supports DAB Band III Frequencies): https://www.digikey.com/en/mylists/list/YETD7D4YD4
 
 # GPSDO Option (Only needed for SFN)
+
+IF you wish to use SFN, you will need at least two EasyDAB boards configured with a TC Oscillator, additional SRAMs and the GPSDO module. 
+GPSDO: https://www.digikey.com/en/mylists/list/PNWZ96SRTK
 
