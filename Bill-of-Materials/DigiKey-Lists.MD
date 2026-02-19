@@ -8,9 +8,11 @@ Essential ICs (FPGA/DAC/Main SRAM/Ethernet Controller): https://www.digikey.com/
 
 Essential Components: https://www.digikey.com/en/mylists/list/4SKKTAJE6A
 
+Essential SPI Flash: A SPI Flash is requried which stores the FPGA Core and the Firmware, the part number of the original design is M25P16 S0-08 Gull Wing Package, however other components may be compatible. You will need to source this separately.
+
 Essential RJ-45 Jack: The HR911105A RJ-45 Jack does not appear to be available on DigiKey, you will need to source it elsewhere. Here's an example listing: https://www.lcsc.com/product-detail/C12074.html
 
-Essential DC-DC Converters - The Mini360 DC-DC Buck Converter required for 3.3v and 1.8v on the board does not appear to be available at DigiKey, but it can be found at many other suppliers such as Amazon, eBay and AliExpress, here's an example listing from RobotShop https://www.robotshop.com/products/mini-360-dc-dc-buck-converter .
+Essential DC-DC Converters: The Mini360 DC-DC Buck Converter required for 3.3v and 1.8v on the board does not appear to be available at DigiKey, but it can be found at many other suppliers such as Amazon, eBay and AliExpress, here's an example listing from RobotShop https://www.robotshop.com/products/mini-360-dc-dc-buck-converter .
 
 Note: The DC Jack's Holes are drilled very small on the PCB, you may have to reduce the leg size of the DC barrel jack you obtain. 
 
