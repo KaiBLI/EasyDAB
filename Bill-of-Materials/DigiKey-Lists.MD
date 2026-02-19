@@ -12,6 +12,8 @@ Essential RJ-45 Jack: The HR911105A RJ-45 Jack does not appear to be available o
 
 Essential DC-DC Converters - The Mini360 DC-DC Buck Converter required for 3.3v and 1.8v on the board does not appear to be available at DigiKey, but it can be found at many other suppliers such as Amazon, eBay and AliExpress, here's an example listing from RobotShop https://www.robotshop.com/products/mini-360-dc-dc-buck-converter .
 
+Note: The DC Jack's Holes are drilled very small on the PCB, you may have to reduce the leg size of the DC barrel jack you obtain. 
+
 # SRAM Option (Strongly Recommended)
 23LC1024 SRAM: https://www.digikey.com/en/mylists/list/1WGT9OCI7E
 
