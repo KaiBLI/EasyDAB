@@ -34,7 +34,7 @@ The existing bill of materials leave too much up to assumption, therefore I will
 
 The board already supports DRM and FM modulation in addition to DAB/DAB+, theortically additional FPGA core/firmware could be built for other digital modulation such as HDRadio/NRSC5 and DVB. 
 
-6. Board redesign.
+5. Board redesign.
 
 
 The existing board requires redesign, solder pads overlay over existing component lables, requiring continuous reference to the PCB layout in CAD during assembly. This leaves opportunity to mistake and damage of expensive components (I'm looking at that Analog Devices Digital Synthesiser!). The board also allows different options depending on whether you wish to use a Single Frequency Network, FM or Digital Radio Mondiale usage, whether to use the mini360 modules and whether to use the band-pass filter. Given that there is little need for this board to be compact, outside of manufactoring costs, additional space can be used to make component locations clearer to the average hobbyist.
