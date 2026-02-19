@@ -2,6 +2,8 @@
 
 # DAB Board Main
 
+Main Passives: https://www.digikey.com/en/mylists/list/4SKKTAJE6A
+
 # SRAM Option
 
 # Quartz XO Option
